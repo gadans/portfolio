@@ -7,7 +7,7 @@ function ProjectBookjjok({ onMouseEnter, onMouseLeave }) {
   return (
     <>
       <ProductWrap>
-        <motion.div whileHover={{ scale: -0.8 }}>
+        <motion.div whileHover={{ scale: 0.8 }}>
           <a href="https://bookjjok.dannsgo.com">
             <div
               className="p"
@@ -32,7 +32,7 @@ const ProductWrap = styled.div`
   .p {
     border: 2px solid rgb(243, 242, 242);
     inline-size: 40vw;
-    block-size: 30vh;
+    block-size: 100%;
     border-radius: 10px 10px 0px 0px;
     overflow: hidden;
   }
@@ -48,13 +48,8 @@ const ProductWrap = styled.div`
 
   .p-img {
     width: 100%;
+    block-size: 100%;
     transition: all 10s ease;
-  }
-
-  .p:hover .p-img {
-    padding-top: 5px;
-    margin-top: 5px;
-    transform: translateY(-100%);
   }
 `;
 

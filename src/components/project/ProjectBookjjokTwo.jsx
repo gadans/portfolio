@@ -31,8 +31,9 @@ const ProductWrap = styled.div`
 
   .p {
     border: 2px solid rgb(243, 242, 242);
+    background: white;
     inline-size: 50vw;
-    block-size: 40vh;
+    block-size: 50%;
     border-radius: 10px 10px 0px 0px;
     overflow: hidden;
   }
@@ -48,13 +49,11 @@ const ProductWrap = styled.div`
 
   .p-img {
     width: 100%;
-    transition: all 10s ease;
+    transition: all 5s ease;
   }
 
   .p:hover .p-img {
-    padding-top: 5px;
-    margin-top: 5px;
-    transform: translateY(-100%);
+    transform: translateY(-65%);
   }
 `;
 

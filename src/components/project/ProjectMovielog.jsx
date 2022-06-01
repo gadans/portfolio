@@ -24,13 +24,14 @@ function ProjectMovielog({ onMouseEnter, onMouseLeave }) {
 
 const ProductWrap = styled.div`
   display: flex;
-  justify-content: flex-end;
-  margin-right: 14vw;
+  justify-content: center;
+  margin-right: -2vw;
 
   .p {
     border: 2px solid #1d1d1f;
+    background-color: white;
     inline-size: 50vw;
-    block-size: 40vh;
+    block-size: 100%;
     border-radius: 10px 10px 0px 0px;
     overflow: hidden;
   }
@@ -46,13 +47,11 @@ const ProductWrap = styled.div`
 
   .p-img {
     width: 100%;
-    transition: all 10s ease;
+    transition: all 5s ease;
   }
 
   .p:hover .p-img {
-    padding-top: 5px;
-    margin-top: 5px;
-    transform: translateY(-100%);
+    transform: translateY(-65%);
   }
 `;
 
