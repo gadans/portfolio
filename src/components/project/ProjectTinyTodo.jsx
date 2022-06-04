@@ -37,7 +37,7 @@ const ProductWrap = styled.div`
 
   .p {
     border: 2px solid rgb(243, 242, 242);
-    background: white;
+    background: #263238;
     inline-size: 80vw;
     border-radius: 10px 10px 0px 0px;
     overflow: hidden;
@@ -69,7 +69,7 @@ const ProductWrap = styled.div`
   }
 
   .p-img {
-    width: 100%;
+    inline-size: 100%;
     transition: all 60s ease;
   }
 

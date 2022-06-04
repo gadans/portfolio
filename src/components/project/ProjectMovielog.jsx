@@ -67,7 +67,7 @@ const ProductWrap = styled.div`
   }
 
   .p-img {
-    width: 100%;
+    inline-size: 100%;
     transition: all 60s ease;
   }
 
