@@ -10,11 +10,11 @@ function ContactTitle({ onMouseEnter, onMouseLeave }) {
 
 const ContactTitleWrap = styled.div`
   font-family: sans-serif;
-  font-size: 17vw;
-  opacity: 0.07;
-  text-align: left;
+  font-size: 15vw;
+  opacity: 0.05;
+  text-align: right;
   font-weight: 900;
-  margin: 22vh -1.2vw;
+  margin: 0 -1.2vw;
 `;
 
 export default ContactTitle;

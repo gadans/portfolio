@@ -9,7 +9,7 @@ import {
   FaJava,
 } from "react-icons/fa";
 import { DiGoogleCloudPlatform } from "react-icons/di";
-import { SiJavascript, SiFirebase, SiOracle } from "react-icons/si";
+import { SiJavascript, SiFirebase, SiOracle, SiRedux } from "react-icons/si";
 import { IoLogoFigma } from "react-icons/io5";
 import styled from "styled-components";
 import { motion } from "framer-motion";
@@ -96,6 +96,18 @@ function Experience() {
         <motion.div
           whileHover={{
             scale: 2,
+            color: "#7649BB",
+          }}
+          whileTap={{
+            scale: 1.5,
+            color: "#9982ba",
+          }}
+        >
+          <SiRedux />
+        </motion.div>
+        <motion.div
+          whileHover={{
+            scale: 2,
             color: "#336D9C",
           }}
           whileTap={{
@@ -117,19 +129,6 @@ function Experience() {
           }}
         >
           <FaJava />
-        </motion.div>
-
-        <motion.div
-          whileHover={{
-            scale: 2,
-            color: "#F7C52A",
-          }}
-          whileTap={{
-            scale: 1.5,
-            color: "#f7dd8d",
-          }}
-        >
-          <SiFirebase />
         </motion.div>
 
         <motion.div
@@ -161,6 +160,18 @@ function Experience() {
       </div>
 
       <div className="three">
+        <motion.div
+          whileHover={{
+            scale: 2,
+            color: "#F7C52A",
+          }}
+          whileTap={{
+            scale: 1.5,
+            color: "#f7dd8d",
+          }}
+        >
+          <SiFirebase />
+        </motion.div>
         <motion.div
           whileHover={{
             scale: 2,

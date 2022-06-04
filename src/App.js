@@ -28,31 +28,31 @@ function App() {
 
   const variants = {
     default: {
-      x: mousePosition.x - 16,
-      y: mousePosition.y - 16,
+      x: mousePosition.x - 10,
+      y: mousePosition.y - 10,
     },
     title: {
-      height: 150,
-      width: 150,
-      x: mousePosition.x - 75,
-      y: mousePosition.y - 75,
-      backgroundColor: "#f9f9f9",
-      mixBlendMode: "difference",
-    },
-    text: {
       height: 100,
       width: 100,
       x: mousePosition.x - 50,
       y: mousePosition.y - 50,
+      backgroundColor: "#f9f9f9",
+      mixBlendMode: "difference",
+    },
+    text: {
+      height: 50,
+      width: 50,
+      x: mousePosition.x - 25,
+      y: mousePosition.y - 25,
       backgroundColor: "#1d1d1f",
       mixBlendMode: "difference",
       opacity: 0.2,
     },
     click: {
-      height: 100,
-      width: 100,
-      x: mousePosition.x - 50,
-      y: mousePosition.y - 50,
+      height: 50,
+      width: 50,
+      x: mousePosition.x - 25,
+      y: mousePosition.y - 25,
       backgroundColor: "#1d1d1f",
     },
   };
