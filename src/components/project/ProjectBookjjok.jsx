@@ -71,7 +71,7 @@ const ProductWrap = styled.div`
 
   .p-img {
     inline-size: 100%;
-    transition: all 60s ease;
+    transition: all 30s ease;
   }
 
   .p:hover .p-img {
