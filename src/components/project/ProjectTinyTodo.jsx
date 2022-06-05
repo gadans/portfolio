@@ -37,7 +37,7 @@ const ProductWrap = styled.div`
 
   .p {
     border: 2px solid rgb(243, 242, 242);
-    background: #263238;
+    background: linear-gradient(to bottom, rgb(243, 242, 242), #263238);
     inline-size: 80vw;
     border-radius: 10px 10px 0px 0px;
     overflow: hidden;
