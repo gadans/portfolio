@@ -34,6 +34,7 @@ function ProjectTinyTodo({ onMouseEnter, onMouseLeave }) {
 const ProductWrap = styled.div`
   display: flex;
   justify-content: center;
+  margin-block-start: 10rem;
 
   .p {
     border: 2px solid rgb(243, 242, 242);

@@ -49,14 +49,14 @@ function Page({ onMouseEnter, onMouseLeave }) {
           />
         </ParallaxLayer>
 
-        <ParallaxLayer offset={4.4} speed={0.1} style={{ zIndex: 3 }}>
+        <ParallaxLayer offset={4.24} speed={0.1} style={{ zIndex: 3 }}>
           <ProjectBookjjok
             onMouseEnter={onMouseEnter.clickEnter}
             onMouseLeave={onMouseLeave}
           />
         </ParallaxLayer>
 
-        <ParallaxLayer offset={6} speed={0.1} style={{ zIndex: 3 }}>
+        <ParallaxLayer offset={5.983} speed={0.1} style={{ zIndex: 3 }}>
           <ProjectTinyTodo
             onMouseEnter={onMouseEnter.clickEnter}
             onMouseLeave={onMouseLeave}
